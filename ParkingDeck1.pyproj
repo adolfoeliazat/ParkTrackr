@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62ccc72b-f07e-48ab-b85a-cb10f81cf774}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>ParkingDeck.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="car_image.jpg" />
+    <Content Include="car_movement.jpg" />
+    <Content Include="chris_photo.jpg" />
+    <Content Include="found-images\last_image0.jpg" />
+    <Content Include="found-images\last_image12.jpg" />
+    <Content Include="found-images\last_image15.jpg" />
+    <Content Include="found-images\last_image18.jpg" />
+    <Content Include="found-images\last_image21.jpg" />
+    <Content Include="found-images\last_image24.jpg" />
+    <Content Include="found-images\last_image27.jpg" />
+    <Content Include="found-images\last_image3.jpg" />
+    <Content Include="found-images\last_image30.jpg" />
+    <Content Include="found-images\last_image33.jpg" />
+    <Content Include="found-images\last_image36.jpg" />
+    <Content Include="found-images\last_image39.jpg" />
+    <Content Include="found-images\last_image42.jpg" />
+    <Content Include="found-images\last_image45.jpg" />
+    <Content Include="found-images\last_image48.jpg" />
+    <Content Include="found-images\last_image51.jpg" />
+    <Content Include="found-images\last_image54.jpg" />
+    <Content Include="found-images\last_image57.jpg" />
+    <Content Include="found-images\last_image6.jpg" />
+    <Content Include="found-images\last_image60.jpg" />
+    <Content Include="found-images\last_image63.jpg" />
+    <Content Include="found-images\last_image66.jpg" />
+    <Content Include="found-images\last_image69.jpg" />
+    <Content Include="found-images\last_image72.jpg" />
+    <Content Include="found-images\last_image75.jpg" />
+    <Content Include="found-images\last_image78.jpg" />
+    <Content Include="found-images\last_image81.jpg" />
+    <Content Include="found-images\last_image84.jpg" />
+    <Content Include="found-images\last_image87.jpg" />
+    <Content Include="found-images\last_image9.jpg" />
+    <Content Include="found-images\last_image90.jpg" />
+    <Content Include="laptop_picture.jpg" />
+    <Content Include="person_image.jpg" />
+    <Content Include="phone_picture.jpg" />
+    <Content Include="small_car.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ParkingDeck.py" />
+    <Compile Include="SerialTest.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="found-images" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
